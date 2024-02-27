@@ -41,8 +41,10 @@ namespace ExamMVC.Controllers
         }
 
         [HttpPost]
-        public IActionResult SubmitExam(string id, int examId, Dictionary<int, int> selectedAnswers)
+        public IActionResult SubmitExam(int examId, Dictionary<int, int> selectedAnswers)
         {
+            string id = User.Identity.Name;
+
             var exam = dbContext.Exams.FromSql($"sp_SelectExamByID {examId}").AsEnumerable().FirstOrDefault();
 
             //Save Answers in DB

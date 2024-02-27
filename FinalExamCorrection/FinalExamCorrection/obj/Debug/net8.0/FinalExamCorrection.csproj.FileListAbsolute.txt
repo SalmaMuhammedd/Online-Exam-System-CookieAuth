@@ -1306,3 +1306,4 @@ H:\OnlineExamSystemUsingCookie\FinalExamCorrection\FinalExamCorrection\obj\Debug
 H:\OnlineExamSystemUsingCookie\FinalExamCorrection\FinalExamCorrection\obj\Debug\net8.0\FinalExamCorrection.pdb
 H:\OnlineExamSystemUsingCookie\FinalExamCorrection\FinalExamCorrection\obj\Debug\net8.0\FinalExamCorrection.genruntimeconfig.cache
 H:\OnlineExamSystemUsingCookie\FinalExamCorrection\FinalExamCorrection\obj\Debug\net8.0\ref\FinalExamCorrection.dll
+H:\OnlineExamSystemUsingCookie\FinalExamCorrection\FinalExamCorrection\obj\Debug\net8.0\FinalExamCorrection.sourcelink.json

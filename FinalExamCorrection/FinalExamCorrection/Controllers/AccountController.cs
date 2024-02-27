@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace FinalExamCorrection.Controllers
 {
-    
+
     public class AccountController : Controller
     {
         private readonly FinalOnlineExamSystemContext _dbContext;
@@ -18,7 +18,20 @@ namespace FinalExamCorrection.Controllers
         {
             this._dbContext = _dbContext;
         }
+        [AllowAnonymous]
+        public async Task<IActionResult> Home()
+        {
+            string role;
+            if (User.Identity.IsAuthenticated)
+            {
 
+                role = User.IsInRole("Instructor") ? "Instructor" : "Student";
+                var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                
+                return RedirectToAction("Home", role, new {id = userId});
+            }
+            return RedirectToAction("Login");
+        }
         public async Task<User> AuthenticateAsync(string email, string password)
         {
             // Find user by email
@@ -48,10 +61,10 @@ namespace FinalExamCorrection.Controllers
         }
 
         [HttpPost]
-		[AllowAnonymous]
-		public async Task<IActionResult> Login(LoginViewModel model)
+        [AllowAnonymous]
+        public async Task<IActionResult> Login(LoginViewModel model)
         {
-            
+
             // Validate user credentials against the database
             var user = await AuthenticateAsync(model.Email, model.Password);
             Debug.WriteLine(user.Id);
@@ -79,7 +92,7 @@ namespace FinalExamCorrection.Controllers
                 var principal = new ClaimsPrincipal(identity);
                 // Sign in user
                 await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
-                
+
                 return RedirectToAction("Home", controller);
             }
 

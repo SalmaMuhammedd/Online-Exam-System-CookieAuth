@@ -62,14 +62,14 @@ namespace FinalExamCorrection
             app.UseAuthentication();
             app.UseAuthorization();
 
-			app.MapControllerRoute(
-				name: "Home", ///modify
-				pattern: "{controller=Home}/{action=Index}/{id?}");
+			//app.MapControllerRoute(
+			//	name: "Home", ///modify
+			//	pattern: "{controller=Home}/{action=Index}/{id?}");
 
 			// Define the default route pattern with a placeholder for the controller name
 			app.MapControllerRoute(
 				name: "default",
-				pattern: "{controller=Account}/{action=Login}/{id?}");
+				pattern: "{controller=Account}/{action=Home}/{id?}");
 
 			app.Run();
         }

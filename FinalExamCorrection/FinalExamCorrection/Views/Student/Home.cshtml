@@ -3,23 +3,36 @@
     ViewData["Title"] = "Home";
 }
 
-
-
-
 <h1 class="text-center">Home</h1>
 
-<div class="container d-flex justify-content-center align-items-center" style="height: 50vh;">
+<div class="container">
     <div class="row">
         <div class="col-md-4">
-            <a class="btn btn-primary btn-block" href="/Student/StudentCourses">Courses</a>
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Courses</h5>
+                    <p class="card-text">Your enrolled courses</p>
+                    <a href="/Student/StudentCourses" class="btn btn-primary btn-block">Go to Courses</a>
+                </div>
+            </div>
         </div>
         <div class="col-md-4">
-            <a class="btn btn-primary btn-block" href="/Student/DueExams">Exams</a>
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Exams</h5>
+                    <p class="card-text">Your due exams</p>
+                    <a href="/Student/DueExams" class="btn btn-primary btn-block">Go to Exams</a>
+                </div>
+            </div>
         </div>
         <div class="col-md-4">
-            <a class="btn btn-primary btn-block" href="/Student/StudentGrades">Grades</a>
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Grades</h5>
+                    <p class="card-text">Your grades in already taken exams</p>
+                    <a href="/Student/StudentGrades" class="btn btn-primary btn-block">Go to Grades</a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-
-
