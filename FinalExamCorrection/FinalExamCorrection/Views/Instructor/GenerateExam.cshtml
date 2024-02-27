@@ -1,0 +1,79 @@
+﻿@{
+    var courses = ViewBag.courses;
+    var numOfMsq = ViewBag.numOfMsq;
+    var numOfTF = ViewBag.numOfTF;
+}
+
+<div class="container">
+    <h1>Generate Exam</h1>
+
+    <form method="post" action="/Instructor/GenerateExam">
+
+
+        <div class="mb-3">
+            <label class="form-label">Choose Course:</label>
+            <select required name="course" id="courseSelect" class="form-select" aria-label="Default select example" asp-items="@courses">
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Choose Number of trueFalse Questions:</label>
+            <input required type="number" class="form-control" name="trueFalseNum" id="trueFalseNum" min="0" max="@numOfMsq">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Choose Number of MCQ Questions:</label>
+            <input required type="number" class="form-control" name="MCQNum" id="MCQNum" min="0" max="@numOfTF">
+        </div>
+
+        <br />
+
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+
+    </form>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+
+    $('#courseSelect').change(function () {
+        var courseId = $(this).val();
+
+        $.ajax({
+            url: '/Instructor/GetNumberOfMSQ',
+            type: 'GET',
+            data: { courseId: courseId },
+            success: function (data) {
+                $('#MCQNum').attr('max', data);
+            },
+            error: function (xhr, textStatus, errorThrown) {
+                console.log('Error:', errorThrown);
+            }
+        });
+    });
+
+
+    $('#courseSelect').change(function () {
+        var courseId = $(this).val();
+
+        $.ajax({
+            url: '/Instructor/GetNumberOfTF',
+            type: 'GET',
+            data: { courseId: courseId },
+            success: function (data) {
+                $('#trueFalseNum').attr('max', data);
+            },
+            error: function (xhr, textStatus, errorThrown) {
+                console.log('Error:', errorThrown);
+            }
+        });
+    });
+
+</script>
+
+
+

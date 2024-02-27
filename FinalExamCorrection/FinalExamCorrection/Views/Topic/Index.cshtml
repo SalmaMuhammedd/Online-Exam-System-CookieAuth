@@ -1,0 +1,36 @@
+﻿@model List<Topic>
+@{
+	ViewData["Title"] = "Index";
+	int crsId = ViewBag.CourseId;
+}
+
+<h1>All Topics</h1>
+
+
+<a href="/Topic/AddNewTopic/@crsId" class="btn btn-primary">Add New Topic</a>
+<br />
+<table class="data-table table nowrap">
+	<thead>
+		<tr>
+			<th>Name</th>
+
+			<th>&nbsp;</th>
+			<th>&nbsp;</th>
+			<th>&nbsp;</th>
+			<th>&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>@item.TopicName</td>
+
+				<td><a href="/Topic/GetTopicById/@item.TopicId " class="btn btn-primary">Details</a></td>
+				<td><a href="/Topic/UpdateTopic/@item.TopicId" class="btn btn-warning">Edit</a></td>
+				<td><a href="/Topic/DeleteTopic/@item.TopicId" class="btn btn-danger">Delete</a></td>
+			</tr>
+		}
+
+	</tbody>
+</table>

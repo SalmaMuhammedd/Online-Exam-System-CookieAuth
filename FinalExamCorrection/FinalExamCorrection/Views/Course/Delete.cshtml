@@ -1,0 +1,43 @@
+﻿@model Course
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Course</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CourseId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CourseId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CourseName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CourseName)
+        </dd>
+
+        @* <dt class="col-sm-2">
+            @Html.DisplayNameFor(model =>model.ins.Fname)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ins.Fname)
+        </dd> *@
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Dept.DeptName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Dept.DeptName)
+        </dd>
+        
+    </dl>
+    
+    <form asp-action="Delete" asp-method="post" asp-route-Id="@Model.CourseId">
+        <input type="hidden" asp-for="@Model.CourseId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a class ="btn btn-dark" asp-action="Index">Back to List</a>
+    </form>
+</div>

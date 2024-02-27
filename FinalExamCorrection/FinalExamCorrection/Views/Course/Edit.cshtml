@@ -1,0 +1,28 @@
+﻿@model Course
+
+<form asp-action="Edit" asp-controller="Course" asp-method="post" asp-route-Id = "@Model.CourseId" style="width:50%;">
+
+	<div class="form-group">
+		<label asp-for="@Model.CourseName" class="col-form-label-sm">Course Name</label>
+		<input type="text" asp-for="@Model.CourseName" class="form-control" />
+	</div>
+
+	<div class="form-group">
+		<label asp-for="@Model.DeptId" class="col-form-label-sm">Department</label>
+		<select asp-for="@Model.DeptId" class="form-control" asp-items="@ViewBag.departments"></select>
+	</div>
+
+	<div class="form-group">
+		<label asp-for="@Model.InsId" class="col-form-label-sm">Instructor</label>
+		<select asp-for="@Model.InsId" class="form-control" asp-items="@ViewBag.instructors"></select>
+	</div>
+
+	<div>
+		<br/>
+		<input type="submit" value="Save" class="btn btn-primary form-btn" />
+	</div>
+
+</form>
+
+
+

@@ -1,0 +1,25 @@
+﻿@using System.Diagnostics
+@{
+    Dictionary<Exam, Course> examCourses = ViewBag.examCourses;
+}
+
+<h1>Due Exams</h1>
+
+<form method="post" action="/Student/TakeExam">
+    @foreach (var kvp in examCourses)
+    {
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="examId" id="exam_@kvp.Key.ExamId" value="@kvp.Key.ExamId">
+            <label class="form-check-label" for="exam_@kvp.Key.ExamId">
+                @kvp.Value.CourseName
+            </label>
+        </div>
+    }
+    @if(examCourses.Count() > 0)
+    {
+        <button type="submit" name="submitButton" value="takeExam" class="btn btn-outline-primary">Take Selected Exam</button>
+
+    }
+
+    <a asp-action="Home" class="btn btn-outline-secondary">Back to Home</a>
+</form>

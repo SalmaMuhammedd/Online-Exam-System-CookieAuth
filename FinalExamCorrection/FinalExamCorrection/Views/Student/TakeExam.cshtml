@@ -1,0 +1,41 @@
+﻿@model FinalExamCorrection.Models.Student
+
+@{
+    ViewData["Title"] = "TakeExam";
+    Exam exam = ViewBag.exam;
+    List<Question> questions = ViewBag.questions;
+    Dictionary<int, List<Choice>> questionChoices = ViewBag.questionChoices;
+
+    int i = 1;
+}
+
+<h1>TakeExam</h1>
+
+<h4>Student</h4>
+<hr />
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <form method="post" action="/Student/SubmitExam">
+                <input type="hidden" name="examId" value="@exam.ExamId" />
+                @foreach (var question in questions)
+                {
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title">@i - @question.Text (@question.Type)</h5>
+                            @foreach (var choice in questionChoices[question.QestId])
+                            {
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" id="@choice.ChoiceId" value="@choice.ChoiceId" name="selectedAnswers[@question.QestId]">
+                                    <label class="form-check-label" for="@choice.ChoiceId">@choice.Text</label>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                    i++;
+                }
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>

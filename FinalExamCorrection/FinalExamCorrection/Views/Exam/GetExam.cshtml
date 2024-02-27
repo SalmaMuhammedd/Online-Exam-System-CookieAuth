@@ -1,0 +1,48 @@
+﻿@model FinalExamCorrection.Models.Exam
+
+@{
+    ViewData["Title"] = "GetExam";
+    Student student = ViewBag.Student;
+    Course course = ViewBag.Course;
+}
+
+<div>
+    <h4>@course.CourseName Exam</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Student:
+        </dt>
+        <dd class="col-sm-10">
+            @student.Fname @student.Lname
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Duration)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Duration) hours
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+
+        <dt class="col-sm-2">
+            Grade:
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Score) / @Html.DisplayFor(model => model.TotalMarks)
+        </dd>
+        <dt class="col-sm-2">
+            Course:
+        </dt>
+        <dd class="col-sm-10">
+            @course.CourseName
+        </dd>
+
+    </dl>
+</div>
+

@@ -1,0 +1,30 @@
+﻿@{
+    Exam exam = ViewBag.Exam;
+
+}
+
+<script>
+    console.log(@exam.ExamId);
+</script>
+<div class="container">
+    <h1>Edit Exam</h1>
+    <form method="post" action="/Instructor/EditExam">
+
+
+        <div class="mb-3">
+            <input type="hidden" class="form-control" name="Exam_id" id="examId" value="@exam.ExamId" min="1" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Duration:</label>
+            <input type="number" class="form-control" name="duration" id="duration" value="@exam.Duration" min="1" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Date:</label>
+            <input type="date" class="form-control" name="Date" id="date" value="@exam.Date" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Update Exam</button>
+    </form>
+</div>

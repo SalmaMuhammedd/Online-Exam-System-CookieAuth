@@ -1,0 +1,34 @@
+﻿@model List<Course>
+
+
+<a class="btn btn-primary"href="/Course/Create">Create a new Course</a>
+
+
+<br/><br/>
+
+
+<table class="table table-light table-bordered">
+	<tr>
+		<th>Course Name</th>
+		<th>Course Department</th>
+		<th>Course Instructor</th>
+
+
+
+	</tr>
+	@foreach(var item in Model)
+	{
+		<tr>
+			
+			<td>@item.CourseName</td>
+			<td>@item.Dept.DeptName</td>
+ 			<td>@item?.Ins.InsName</td>
+			<td><a href="/Course/Edit/@item?.CourseId">Edit</a></td>
+			<td><a href="/Course/Delete/@item?.CourseId">Delete</a></td>
+			<td><a href="/Topic/Index/@item?.CourseId">Topics</a></td>
+
+
+		</tr>
+	}
+
+</table>
