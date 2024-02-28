@@ -3,52 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|c:\\users\\smc\\onedrive\\desktop\\online-exam-system-cookieauth\\finalexamcorrection\\finalexamcorrection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|solutionrelative:finalexamcorrection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\finalexamcorrection\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|solutionrelative:finalexamcorrection\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\finalexamcorrection\\views\\student\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|solutionrelative:finalexamcorrection\\views\\student\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\finalexamcorrection\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|solutionrelative:finalexamcorrection\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\finalexamcorrection\\views\\topic\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|solutionrelative:finalexamcorrection\\views\\topic\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|c:\\users\\smc\\onedrive\\desktop\\online-exam-system-cookieauth\\finalexamcorrection\\finalexamcorrection\\views\\user\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|solutionrelative:finalexamcorrection\\views\\user\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\finalexamcorrection\\views\\topic\\updatetopic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|solutionrelative:finalexamcorrection\\views\\topic\\updatetopic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|c:\\users\\smc\\onedrive\\desktop\\online-exam-system-cookieauth\\finalexamcorrection\\finalexamcorrection\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|solutionrelative:finalexamcorrection\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\finalexamcorrection\\controllers\\topiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|solutionrelative:finalexamcorrection\\controllers\\topiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|c:\\users\\smc\\onedrive\\desktop\\online-exam-system-cookieauth\\finalexamcorrection\\finalexamcorrection\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|solutionrelative:finalexamcorrection\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\finalexamcorrection\\views\\topic\\addnewtopic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|solutionrelative:finalexamcorrection\\views\\topic\\addnewtopic.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|c:\\users\\smc\\onedrive\\desktop\\online-exam-system-cookieauth\\finalexamcorrection\\finalexamcorrection\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|solutionrelative:finalexamcorrection\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\finalexamcorrection\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|solutionrelative:finalexamcorrection\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|c:\\users\\smc\\onedrive\\desktop\\online-exam-system-cookieauth\\finalexamcorrection\\finalexamcorrection\\views\\course\\enrollstudentincourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|solutionrelative:finalexamcorrection\\views\\course\\enrollstudentincourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\finalexamcorrection\\views\\topic\\gettopicbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|solutionrelative:finalexamcorrection\\views\\topic\\gettopicbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|c:\\users\\smc\\onedrive\\desktop\\online-exam-system-cookieauth\\finalexamcorrection\\finalexamcorrection\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|solutionrelative:finalexamcorrection\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\finalexamcorrection\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|solutionrelative:finalexamcorrection\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|c:\\users\\smc\\onedrive\\desktop\\online-exam-system-cookieauth\\finalexamcorrection\\finalexamcorrection\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|solutionrelative:finalexamcorrection\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\finalexamcorrection\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|solutionrelative:finalexamcorrection\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\finalexamcorrection\\views\\student\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|solutionrelative:finalexamcorrection\\views\\student\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8BC14DF3-6CDA-4311-B9A0-B34446ACD5E2}|FinalExamCorrection\\FinalExamCorrection.csproj|C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\finalexamcorrection\\views\\department\\updatedepartment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -74,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,19 +70,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "FinalExamCorrection\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "FinalExamCorrection\\Controllers\\StudentController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwCsAAAAoAAAA",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Models\\User.cs",
+              "RelativeDocumentMoniker": "FinalExamCorrection\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Models\\User.cs",
+              "RelativeToolTip": "FinalExamCorrection\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T00:49:16.249Z"
+              "WhenOpened": "2024-02-28T17:30:11.958Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "Instructor.cs",
+              "DocumentMoniker": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Models\\Instructor.cs",
+              "RelativeDocumentMoniker": "FinalExamCorrection\\Models\\Instructor.cs",
+              "ToolTip": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Models\\Instructor.cs",
+              "RelativeToolTip": "FinalExamCorrection\\Models\\Instructor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T17:30:07.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EnrollStudentInCourse.cshtml",
+              "DocumentMoniker": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Views\\Course\\EnrollStudentInCourse.cshtml",
+              "RelativeDocumentMoniker": "FinalExamCorrection\\Views\\Course\\EnrollStudentInCourse.cshtml",
+              "ToolTip": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Views\\Course\\EnrollStudentInCourse.cshtml",
+              "RelativeToolTip": "FinalExamCorrection\\Views\\Course\\EnrollStudentInCourse.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-28T16:03:41.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "FinalExamCorrection\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "FinalExamCorrection\\Controllers\\CourseController.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAiwHwAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T15:13:38.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "FinalExamCorrection\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Controllers\\UserController.cs",
+              "RelativeToolTip": "FinalExamCorrection\\Controllers\\UserController.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAowEUAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T14:33:08.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Home.cshtml",
               "DocumentMoniker": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Views\\Student\\Home.cshtml",
               "RelativeDocumentMoniker": "FinalExamCorrection\\Views\\Student\\Home.cshtml",
@@ -102,134 +143,51 @@
               "RelativeToolTip": "FinalExamCorrection\\Views\\Student\\Home.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-28T00:49:16.282Z"
+              "WhenOpened": "2024-02-28T00:49:16.282Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "FinalExamCorrection\\Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Controllers\\AccountController.cs",
               "RelativeToolTip": "FinalExamCorrection\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAqwCAAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T00:49:16.283Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Program.cs",
-              "RelativeDocumentMoniker": "FinalExamCorrection\\Program.cs",
-              "ToolTip": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Program.cs",
-              "RelativeToolTip": "FinalExamCorrection\\Program.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAACgAAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T00:49:16.405Z",
+              "WhenOpened": "2024-02-28T00:49:16.283Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Views\\Course\\Index.cshtml",
-              "RelativeDocumentMoniker": "FinalExamCorrection\\Views\\Course\\Index.cshtml",
-              "ToolTip": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Views\\Course\\Index.cshtml",
-              "RelativeToolTip": "FinalExamCorrection\\Views\\Course\\Index.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "AddStudent.cshtml",
+              "DocumentMoniker": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Views\\User\\AddStudent.cshtml",
+              "RelativeDocumentMoniker": "FinalExamCorrection\\Views\\User\\AddStudent.cshtml",
+              "ToolTip": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Views\\User\\AddStudent.cshtml",
+              "RelativeToolTip": "FinalExamCorrection\\Views\\User\\AddStudent.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAQwEMAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-28T00:49:16.522Z"
+              "WhenOpened": "2024-02-28T17:54:17.932Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Views\\Topic\\Index.cshtml",
-              "RelativeDocumentMoniker": "FinalExamCorrection\\Views\\Topic\\Index.cshtml",
-              "ToolTip": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Views\\Topic\\Index.cshtml",
-              "RelativeToolTip": "FinalExamCorrection\\Views\\Topic\\Index.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAkAAAAgAAAA",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "FinalExamCorrection\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "FinalExamCorrection\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-28T00:49:16.523Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UpdateTopic.cshtml",
-              "DocumentMoniker": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Views\\Topic\\UpdateTopic.cshtml",
-              "RelativeDocumentMoniker": "FinalExamCorrection\\Views\\Topic\\UpdateTopic.cshtml",
-              "ToolTip": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Views\\Topic\\UpdateTopic.cshtml",
-              "RelativeToolTip": "FinalExamCorrection\\Views\\Topic\\UpdateTopic.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACgAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-28T00:49:16.524Z"
+              "WhenOpened": "2024-02-28T17:53:44.565Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "GetTopicById.cshtml",
-              "DocumentMoniker": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Views\\Topic\\GetTopicById.cshtml",
-              "RelativeDocumentMoniker": "FinalExamCorrection\\Views\\Topic\\GetTopicById.cshtml",
-              "ToolTip": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Views\\Topic\\GetTopicById.cshtml",
-              "RelativeToolTip": "FinalExamCorrection\\Views\\Topic\\GetTopicById.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACAAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-28T00:49:16.525Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AddNewTopic.cshtml",
-              "DocumentMoniker": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Views\\Topic\\AddNewTopic.cshtml",
-              "RelativeDocumentMoniker": "FinalExamCorrection\\Views\\Topic\\AddNewTopic.cshtml",
-              "ToolTip": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Views\\Topic\\AddNewTopic.cshtml",
-              "RelativeToolTip": "FinalExamCorrection\\Views\\Topic\\AddNewTopic.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAswCAAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-28T00:49:16.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TopicController.cs",
-              "DocumentMoniker": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Controllers\\TopicController.cs",
-              "RelativeDocumentMoniker": "FinalExamCorrection\\Controllers\\TopicController.cs",
-              "ToolTip": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Controllers\\TopicController.cs",
-              "RelativeToolTip": "FinalExamCorrection\\Controllers\\TopicController.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAtwDYAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T00:49:16.528Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "FinalExamCorrection\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "FinalExamCorrection\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-28T00:49:16.529Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Controllers\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "FinalExamCorrection\\Controllers\\DepartmentController.cs",
-              "ToolTip": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Controllers\\DepartmentController.cs",
-              "RelativeToolTip": "FinalExamCorrection\\Controllers\\DepartmentController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T00:49:16.529Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "UpdateDepartment.cshtml",
               "DocumentMoniker": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Views\\Department\\UpdateDepartment.cshtml",
               "RelativeDocumentMoniker": "FinalExamCorrection\\Views\\Department\\UpdateDepartment.cshtml",
@@ -237,11 +195,12 @@
               "RelativeToolTip": "FinalExamCorrection\\Views\\Department\\UpdateDepartment.cshtml",
               "ViewState": "AQIAABUAAAAAAAAAAAAcwCYAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-28T00:49:16.531Z"
+              "WhenOpened": "2024-02-28T00:49:16.531Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Views\\Department\\Index.cshtml",
               "RelativeDocumentMoniker": "FinalExamCorrection\\Views\\Department\\Index.cshtml",
@@ -253,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 11,
               "Title": "GetDepartmentById.cshtml",
               "DocumentMoniker": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Views\\Department\\GetDepartmentById.cshtml",
               "RelativeDocumentMoniker": "FinalExamCorrection\\Views\\Department\\GetDepartmentById.cshtml",
@@ -265,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 12,
               "Title": "AddNewDepartment.cshtml",
               "DocumentMoniker": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Views\\Department\\AddNewDepartment.cshtml",
               "RelativeDocumentMoniker": "FinalExamCorrection\\Views\\Department\\AddNewDepartment.cshtml",

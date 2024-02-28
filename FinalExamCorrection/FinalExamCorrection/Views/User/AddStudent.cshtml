@@ -1,6 +1,6 @@
 ﻿@model Student
 @{
-    ViewData["Title"] = "AddStudent";
+	ViewData["Title"] = "AddStudent";
 	var depts = new SelectList(ViewBag.Departments, "DeptId", "DeptName");
 }
 
@@ -31,7 +31,7 @@
 							<form asp-action="AddStudent" method="post">
 								<!-- 2 column grid layout with text inputs for the first and last names -->
 								<div class="row">
-									<input asp-for="Id" hidden value="123"/>
+									<input asp-for="Id" hidden value="123" />
 									<div class="col-md-6 mb-4">
 										<div class="form-outline">
 											<input type="text" asp-for="Fname" id="form3Example1" class="form-control" />
@@ -52,7 +52,7 @@
 									<label class="form-label" asp-for="Email" for="form3Example3">Email address</label>
 									<span asp-validation-for="Email" class="text-danger"></span>
 								</div>
-								
+
 
 								<div class="form-group">
 									<label asp-for="DeptId" class="col-form-label"></label>
@@ -65,9 +65,9 @@
 
 								<!-- Password input -->
 								<div class="form-outline mb-4">
-								<input type="password" asp-for="Password" id="form3Example4" class="form-control" />
-								<label class="form-label" asp-for="Password" for="form3Example4">Password</label>
-								<span asp-validation-for="Password" class="text-danger"></span>
+									<input type="password" type="password" asp-for="Password" id="form3Example4" class="form-control" />
+									<label class="form-label" asp-for="Password" for="form3Example4">Password</label>
+									<span asp-validation-for="Password" class="text-danger"></span>
 								</div>
 
 
@@ -84,7 +84,7 @@
 									Add New Student
 								</button>
 
-								
+
 							</form>
 						</div>
 					</div>

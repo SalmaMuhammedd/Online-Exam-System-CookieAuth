@@ -1,0 +1,18 @@
+﻿@model Course
+@{
+	ViewData["Title"] = "EnrollStudentInCourse";
+	var student = ViewBag.Student;
+	var crs = new SelectList(ViewBag.Courses, "CourseId", "CourseName");
+}
+
+<h1>EnrollStudentInCourse</h1>
+
+<form asp-action="EnrollStudentInCourse" asp-route-Id="@student.Id" class="mb-3">
+	<div class="input-group">
+		<select asp-for="CourseId" asp-items="crs" class="form-select">
+			<option value="0">---- Select Course ----</option>
+		</select>
+	</div>
+	<input asp-for="CourseName"hidden/>
+	<input type="submit" value="Enroll" class="btn btn-primary"/>
+</form>
