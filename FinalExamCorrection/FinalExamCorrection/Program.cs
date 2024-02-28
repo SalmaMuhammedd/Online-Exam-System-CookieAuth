@@ -38,7 +38,7 @@ namespace FinalExamCorrection
 
 
             builder.Services.AddDbContext<FinalOnlineExamSystemContext>(options =>
-             options.UseSqlServer("Data Source=.;Initial Catalog=FinalOnlineExamSystem;Integrated Security=True;Encrypt=False;"));
+             options.UseSqlServer("Data Source=DESKTOP-0054Q2J\\SQLEXPRESS;Initial Catalog=FinalOnlineExamSystem;Integrated Security=True;Encrypt=False;"));
 
             builder.Services.AddHttpContextAccessor();
 

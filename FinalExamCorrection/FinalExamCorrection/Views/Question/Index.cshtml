@@ -1,0 +1,98 @@
+﻿@model List<Question>
+
+<style>
+    /* Custom styles for the table */
+    .custom-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+    }
+
+        .custom-table th,
+        .custom-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+
+        .custom-table th {
+            background-color: #f2f2f2;
+        }
+
+    .badge-custom {
+        margin-right: 5px;
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .edit-delete-links a {
+        margin-right: 10px;
+        text-decoration: none;
+    }
+
+    .button-link {
+        display: inline-block;
+        padding: 10px 20px;
+        text-decoration: none;
+        background-color: #007BFF; /* You can choose your desired background color */
+        color: #fff; /* Text color */
+        border: 1px solid #007BFF; /* Border color */
+        border-radius: 5px; /* Rounded corners */
+        transition: background-color 0.3s ease; /* Smooth transition on hover */
+    }
+
+        .button-link:hover {
+            background-color: #0056b3; /* Change background color on hover */
+            color: #fff; /* Change text color on hover */
+            text-decoration: none;
+        }
+</style>
+
+
+
+<div>
+    <div>
+        <h4>List of Questions</h4>
+    </div>
+
+    <div>
+        <a class="button-link" href="/Question/Create">Add a New Question</a>
+       <br/>
+    </div>
+    <br/>
+</div>
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Type</th>
+            <th style="width: 30%;">Text</th>
+            <th>Level</th>
+            <th>Score</th>
+            <th>Course</th>
+            <th>Choices</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Type</td>
+                <td>@item.Text</td>
+                <td>@item.Level</td>
+                <td>@item.Score</td>
+                <td>@item.Crs.CourseName</td>
+                <td>
+                    @foreach (var choice in item.Choices)
+                    {
+                        <div>@choice.Text</div>
+                    }
+                </td>
+                <td class="edit-delete-links">
+                    <a class="button-link" href="@Url.Action("Edit", "Question", new { id = item.QestId })">Edit</a>
+                    <a class="button-link" href="@Url.Action("Delete", "Question", new { id = item.QestId })">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

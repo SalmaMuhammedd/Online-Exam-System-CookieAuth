@@ -124,7 +124,7 @@
               "RelativeDocumentMoniker": "FinalExamCorrection\\Program.cs",
               "ToolTip": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\Program.cs",
               "RelativeToolTip": "FinalExamCorrection\\Program.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAAEIAAAA5AAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAACgAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-28T00:49:16.405Z",
               "EditorCaption": ""
@@ -187,7 +187,8 @@
               "RelativeToolTip": "FinalExamCorrection\\Views\\Topic\\AddNewTopic.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAswCAAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-28T00:49:16.527Z"
+              "WhenOpened": "2024-02-28T00:49:16.527Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -199,7 +200,8 @@
               "RelativeToolTip": "FinalExamCorrection\\Controllers\\TopicController.cs",
               "ViewState": "AQIAACYAAAAAAAAAAAAtwDYAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T00:49:16.528Z"
+              "WhenOpened": "2024-02-28T00:49:16.528Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

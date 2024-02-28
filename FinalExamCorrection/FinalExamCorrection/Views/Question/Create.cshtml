@@ -1,0 +1,97 @@
+﻿@model Question 
+
+
+<form style="width:50%;" asp-action="Create" method="post">
+
+	<div class="form-group">
+		<label class="form-label" asp-for="Type"></label>
+		<Select asp-for="Type" class="form-control">
+			<Option value="TF">TF</Option>
+			<Option value="MCQ">MCQ</Option>
+
+		</Select>
+	</div>
+
+	<div class="form-group">
+		<label class="form-label" asp-for="Text"></label>
+		<input class="form-control" asp-for="Text" />
+	</div>
+
+	<div class="form-group">
+		<label class="form-label" asp-for="Level"></label>
+		<Select asp-for="Level" class="form-control">
+			<Option value="1">Easy</Option>
+			<Option value="2">Medium</Option>
+			<Option value="3">Hard</Option>
+		</Select>
+	</div>
+
+	<div class="form-group">
+		<label class="form-label" asp-for="Score"></label>
+		<input class="form-control" asp-for="Score" min="1" />
+	</div>
+
+	<div class="form-group">
+		<label class="form-label" asp-for="CrsId"> Course</label>
+		<select class="form-control" asp-for="CrsId" asp-items="@ViewBag.Courses"></select>
+	</div>
+
+
+
+	<br/>
+	<div class="form-group">
+		<label class="form-label">Choice one</label>
+
+
+		<input name="choicetext" class="form-control" />
+		
+		<input type="checkbox" name="correct1" class="form-check-input" />
+
+		<label class="form-check-label"> Is Correct</label>
+	</div>
+	<br/>
+
+	<br />
+	<div class="form-group">
+		<label class="form-label">Choice two</label>
+
+
+		<input name="choicetext" class="form-control" />
+
+		<input type="checkbox" name="correct2" class="form-check-input" />
+	
+
+
+		<label class="form-check-label"> Is Correct</label>
+	</div>
+	<br />
+
+	<br />
+	<div class="form-group">
+		<label class="form-label">Choice three</label>
+
+
+		<input name="choicetext" class="form-control" />
+
+		<input type="checkbox" name="correct3" class="form-check-input" />
+		
+
+		<label class="form-check-label"> Is Correct</label>
+	</div>
+	<br />
+
+	<input type="submit" value="Save" class="btn btn-primary"/>
+</form>
+
+<script>
+	function check() {
+		var list = document.querySelectorAll('input[type="checkbox"]');
+		list.forEach(function (item) {
+			item.value = item.checked;
+			console.log(item.checked);
+		});
+		
+	}
+	document.forms[0].onsubmit = check;
+	
+</script>
