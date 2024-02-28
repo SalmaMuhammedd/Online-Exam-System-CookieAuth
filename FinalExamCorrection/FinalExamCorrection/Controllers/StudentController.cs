@@ -50,8 +50,13 @@ namespace ExamMVC.Controllers
             //Save Answers in DB
             foreach (var questionId in selectedAnswers.Keys)
             {
-                var answerId = selectedAnswers[questionId];
-                dbContext.Database.ExecuteSqlInterpolated($"EXEC QuestionAnswer @examID={exam.ExamId}, @studID = {id}, @questionId = {questionId}, @answerId = {answerId}");
+                try
+                {
+                    var answerId = selectedAnswers[questionId];
+                    dbContext.Database.ExecuteSqlInterpolated($"EXEC QuestionAnswer @examID={exam.ExamId}, @studID = {id}, @questionId = {questionId}, @answerId = {answerId}");
+                }
+                catch { }
+                
             }
 
             //Correct the exam and display grade

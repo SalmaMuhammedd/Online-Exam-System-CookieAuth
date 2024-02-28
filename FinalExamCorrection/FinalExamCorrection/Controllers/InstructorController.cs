@@ -19,7 +19,7 @@ namespace FinalExamCorrection.Controllers
         public IActionResult Home()
         {
             string id = User.Identity.Name;
-            var courses = dbContext.Courses.FromSqlRaw($"getCoursesByInstructor {id}").AsEnumerable().ToList();
+            var courses = dbContext.Courses.FromSqlInterpolated($"getCoursesByInstructor {id}").AsEnumerable().ToList();
 
             ViewBag.courses = courses.Select(c => new SelectListItem
             {

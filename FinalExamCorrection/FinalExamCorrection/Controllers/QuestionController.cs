@@ -119,16 +119,21 @@ namespace FinalExamCorrection.Controllers
 
 			i++;
 
-			context.Database.ExecuteSqlInterpolated($@"
+			try
+			{
+                context.Database.ExecuteSqlInterpolated($@"
                 sp_UpdateChoice 
                 {choices[i].ChoiceId},
                 {choicetext[i]}, 
                 {correct3}, 
                 {id}
             ");
+            }
+			catch { }
 
 
-			return RedirectToAction("Index");
+
+            return RedirectToAction("Index");
 		}
 
 		public ActionResult Delete(int id)
