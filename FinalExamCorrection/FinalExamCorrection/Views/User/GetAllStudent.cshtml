@@ -1,0 +1,43 @@
+﻿@model List<Student>
+@{
+	ViewData["Title"] = "GetAllStudent";
+}
+
+<h1>GetAllStudent</h1>
+
+<a href="/User/AddStudent" class="btn btn-primary">Add New Student</a>
+<br />
+<table class="data-table table nowrap">
+	<thead>
+		<tr>
+			<th>FName</th>
+			<th>LName</th>
+			<th>Email</th>
+			<th>DOB</th>
+			<th>Department</th>
+			<th>&nbsp;</th>
+			<th>&nbsp;</th>
+			<th>&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>@item.Fname</td>
+				<td>@item.Lname</td>
+				<td>@item.Email</td>
+				<td>@item.DoB</td>
+				<th>@item.Dept.DeptName</th>
+				<td><a href="/User/StudentDetails/@item.Id " class="btn btn-primary">Details</a></td>
+				<td><a href="/User/updateStudent/@item.Id" class="btn btn-warning">Edit</a></td>
+				<td><a href="/User/DeleteStudent/@item.Id" class="btn btn-danger">Delete</a></td>
+			</tr>
+		}
+
+	</tbody>
+</table>
+
+
+
+
