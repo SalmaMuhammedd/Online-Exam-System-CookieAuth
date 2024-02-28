@@ -517,6 +517,12 @@ BEGIN CATCH
 END CATCH
 
 GO
+
+create procedure sp_SelectChoiceByQuestionId @qestid int
+as
+begin 
+select* from Choice where choice.question_id = @qestid
+end 	
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 --Answer
 CREATE PROCEDURE sp_SelectAnswerById @studId nvarchar(450), @questionID int, @examID int
