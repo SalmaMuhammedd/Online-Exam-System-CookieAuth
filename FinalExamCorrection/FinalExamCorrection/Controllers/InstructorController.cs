@@ -43,7 +43,6 @@ namespace FinalExamCorrection.Controllers
             return RedirectToAction("Home");
         }
 
-        [HttpGet]
         public IActionResult EditExam(int id)
         {
             ViewBag.Exam = dbContext.Exams.FromSqlRaw($"sp_SelectExamByID {id}").AsEnumerable().FirstOrDefault();
@@ -52,15 +51,15 @@ namespace FinalExamCorrection.Controllers
         }
 
         [HttpPost]
-        public IActionResult EditExam(Exam exam)
+        public IActionResult EditExam(int Exam_id, int duration, DateOnly Date)
         {
-            Debug.WriteLine($"exam id   {exam.ExamId}");
-            Debug.WriteLine(exam.Duration);
-            int duration = exam.Duration ?? 0;
-            string date = exam.Date?.ToString("yyyy-MM-dd") ?? "";
+            //Debug.WriteLine($"exam id   {exam.ExamId}");
+            //Debug.WriteLine(exam.Duration);
+            //int duration = exam.Duration ?? 0;
+            //string date = exam.Date?.ToString("yyyy-MM-dd") ?? "";
 
             // Execute the stored procedure with converted parameters
-            dbContext.Database.ExecuteSqlRaw("EXEC sp_UpdateExam {0}, {1}, {2}", exam.ExamId, duration, date);
+            dbContext.Database.ExecuteSqlRaw("EXEC sp_UpdateExam {0}, {1}, {2}", Exam_id, duration, Date);
             dbContext.SaveChanges();
             return RedirectToAction("Home");
         }

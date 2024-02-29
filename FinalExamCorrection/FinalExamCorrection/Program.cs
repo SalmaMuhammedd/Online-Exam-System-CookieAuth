@@ -16,15 +16,6 @@ namespace FinalExamCorrection
         {
             var builder = WebApplication.CreateBuilder(args);
 
-			// Add services to the container.
-			//builder.Services.AddControllersWithViews();
-
-			//builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
-		 //   .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, options =>
-		 //   {
-			//    options.LoginPath = new PathString("/Account/Login");
-			//    options.AccessDeniedPath = new PathString("/Home/Error");
-		 //   });
 
 			builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
             .AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, options =>
@@ -32,13 +23,12 @@ namespace FinalExamCorrection
                 options.ExpireTimeSpan = TimeSpan.FromMinutes(20);
                 options.SlidingExpiration = true;
 				options.LoginPath = new PathString("/Account/Login");
-                //options.ForwardSignIn = new PathString("/Instructor/Home");
 				options.AccessDeniedPath = "/Forbidden/";
             });
 
 
             builder.Services.AddDbContext<FinalOnlineExamSystemContext>(options =>
-             options.UseSqlServer("Data Source=DESKTOP-0054Q2J\\SQLEXPRESS;Initial Catalog=FinalOnlineExamSystem;Integrated Security=True;Encrypt=False;"));
+             options.UseSqlServer("Data Source=.;Initial Catalog=FinalOnlineExamSystem;Integrated Security=True;Encrypt=False;"));
 
             builder.Services.AddHttpContextAccessor();
 
@@ -62,10 +52,7 @@ namespace FinalExamCorrection
             app.UseAuthentication();
             app.UseAuthorization();
 
-			//app.MapControllerRoute(
-			//	name: "Home", ///modify
-			//	pattern: "{controller=Home}/{action=Index}/{id?}");
-
+		
 			// Define the default route pattern with a placeholder for the controller name
 			app.MapControllerRoute(
 				name: "default",

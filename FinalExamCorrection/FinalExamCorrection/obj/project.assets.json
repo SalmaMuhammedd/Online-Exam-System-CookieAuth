@@ -8100,24 +8100,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\smc\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Dell\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\FinalExamCorrection.csproj",
+      "projectUniqueName": "H:\\OnlineExamSystemGithub\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\FinalExamCorrection.csproj",
       "projectName": "FinalExamCorrection",
-      "projectPath": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\FinalExamCorrection.csproj",
-      "packagesPath": "C:\\Users\\smc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\smc\\OneDrive\\Desktop\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\obj\\",
+      "projectPath": "H:\\OnlineExamSystemGithub\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\FinalExamCorrection.csproj",
+      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+      "outputPath": "H:\\OnlineExamSystemGithub\\Online-Exam-System-CookieAuth\\FinalExamCorrection\\FinalExamCorrection\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\smc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8137,11 +8132,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -8180,7 +8170,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

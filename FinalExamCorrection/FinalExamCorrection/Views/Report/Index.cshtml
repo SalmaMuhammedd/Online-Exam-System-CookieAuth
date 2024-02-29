@@ -1,0 +1,77 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    string baseUrl = "http://desktop-lgl6osr/Reports/report";
+}
+
+<h1 class="text-center">Reports</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Department Students</h5>
+                    <p class="card-text">Get Students In a specific Department</p>
+                    <div class="text-center">
+                        <a href="@($"{baseUrl}/DepartmentStudents")" class="btn btn-primary btn-block btn-lg">Go</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Student Grade</h5>
+                    <p class="card-text">Get the grade percentage of a specific student</p>
+                    <div class="text-center">
+                        <a href="@($"{baseUrl}/StudentGrade")" class="btn btn-primary btn-block btn-lg">Go</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Course Topics</h5>
+                    <p class="card-text">Get the topics of a specific course</p>
+                    <div class="text-center">
+                        <a href="@($"{baseUrl}/CourseTopics")" class="btn btn-primary btn-block btn-lg">Go</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Exam Questions And Answers</h5>
+                    <p class="card-text">Get Exam questions and choices</p>
+                    <div class="text-center">
+                        <a href="@($"{baseUrl}/ExamQuestionsAndAnswers")" class="btn btn-primary btn-block btn-lg">Go</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Instructor Courses</h5>
+                    <p class="card-text">Get the courses taught by a specific instructor</p>
+                    <div class="text-center">
+                        <a href="@($"{baseUrl}/InstructorCourses")" class="btn btn-primary btn-block btn-lg">Go</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Student Answers</h5>
+                    <p class="card-text">Get Exam questions, student's answer and model answer</p>
+                    <div class="text-center">
+                        <a href="@($"{baseUrl}/StudentAnswers")" class="btn btn-primary btn-block btn-lg">Go</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

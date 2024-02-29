@@ -17,183 +17,187 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FinalExamCorrection
 build_property.RootNamespace = FinalExamCorrection
-build_property.ProjectDir = C:\Users\smc\OneDrive\Desktop\Online-Exam-System-CookieAuth\FinalExamCorrection\FinalExamCorrection\
+build_property.ProjectDir = H:\OnlineExamSystemGithub\Online-Exam-System-CookieAuth\FinalExamCorrection\FinalExamCorrection\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\smc\OneDrive\Desktop\Online-Exam-System-CookieAuth\FinalExamCorrection\FinalExamCorrection
+build_property.MSBuildProjectDirectory = H:\OnlineExamSystemGithub\Online-Exam-System-CookieAuth\FinalExamCorrection\FinalExamCorrection
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Account/Login.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Course/Create.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Course/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Course/Delete.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Course/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Course/Edit.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Course/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Course/EnrollStudentInCourse.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Course/EnrollStudentInCourse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEVucm9sbFN0dWRlbnRJbkNvdXJzZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Course/Index.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Course/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Department/AddNewDepartment.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Department/AddNewDepartment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxBZGROZXdEZXBhcnRtZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Department/GetDepartmentById.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Department/GetDepartmentById.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxHZXREZXBhcnRtZW50QnlJZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Department/Index.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Department/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Department/UpdateDepartment.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Department/UpdateDepartment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxVcGRhdGVEZXBhcnRtZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Exam/GetExam.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Exam/GetExam.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxHZXRFeGFtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Home/Index.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Home/Privacy.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Instructor/EditExam.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Instructor/EditExam.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxFZGl0RXhhbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Instructor/GenerateExam.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Instructor/GenerateExam.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxHZW5lcmF0ZUV4YW0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Instructor/Home.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Instructor/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1Y3RvclxIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Question/Create.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Question/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Question/Delete.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Question/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Question/Edit.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Question/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Question/Index.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Question/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlc3Rpb25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Shared/Error.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Report/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Shared/_ValidationScriptsPartial.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Student/DueExams.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Student/DueExams.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEdWVFeGFtcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Student/Home.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Student/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Student/StudentCourses.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Student/StudentCourses.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50Q291cnNlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Student/StudentGrades.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Student/StudentGrades.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50R3JhZGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Student/SubmitExam.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Student/SubmitExam.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdWJtaXRFeGFtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Student/TakeExam.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Student/TakeExam.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxUYWtlRXhhbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Topic - Copy/AddNewDepartment.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Topic - Copy/AddNewDepartment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWMgLSBDb3B5XEFkZE5ld0RlcGFydG1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Topic - Copy/GetDepartmentById.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Topic - Copy/GetDepartmentById.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWMgLSBDb3B5XEdldERlcGFydG1lbnRCeUlkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Topic - Copy/Index.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Topic - Copy/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWMgLSBDb3B5XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Topic - Copy/UpdateDepartment.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Topic - Copy/UpdateDepartment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWMgLSBDb3B5XFVwZGF0ZURlcGFydG1lbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Topic/AddNewTopic.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Topic/AddNewTopic.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNcQWRkTmV3VG9waWMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Topic/GetTopicById.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Topic/GetTopicById.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNcR2V0VG9waWNCeUlkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Topic/Index.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Topic/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Topic/UpdateTopic.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Topic/UpdateTopic.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9waWNcVXBkYXRlVG9waWMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/User/AddStudent.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/User/AddStudent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBZGRTdHVkZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/User/GetAllStudent.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/User/GetAllStudent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxHZXRBbGxTdHVkZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/User/StudentDetails.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/User/StudentDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTdHVkZW50RGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/User/updateStudent.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/User/updateStudent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclx1cGRhdGVTdHVkZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/_ViewImports.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/_ViewStart.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/smc/OneDrive/Desktop/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Shared/_Layout.cshtml]
+[H:/OnlineExamSystemGithub/Online-Exam-System-CookieAuth/FinalExamCorrection/FinalExamCorrection/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-clujc3funo
