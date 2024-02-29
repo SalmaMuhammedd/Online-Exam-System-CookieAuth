@@ -1,0 +1,90 @@
+﻿@{
+    var courses = ViewBag.courses;
+    List<Exam> firstExams = ViewBag.firstExams;
+    List<Student> StudentsOfFirstCourse = ViewBag.StudentsOfFirstCourse;
+}
+
+
+<td> <a href="/Instructor/GenerateExam" class="btn btn-primary"> Generate Exam </a> </td>
+<div class="container">
+    <h1>Edit Exam</h1>
+    <div class="mb-3">
+        <label class="form-label">Select Course:</label>
+        <select name="course" class="form-select" aria-label="Default select example" asp-items="@courses" id="courseSelect"></select>
+    </div>
+
+    <table class="table table-borderd table-hover">
+        <thead>
+            <tr>
+                <th>Student Name</th>
+                <th>Total Marks</th>
+                <th>Grade Of Student</th>
+                <th>&nbsp;</th>
+                <th>&nbsp;</th>
+            </tr>
+        </thead>
+        <tbody id="examsTableBody">
+            @foreach (Exam exam in firstExams)
+            {
+                int index = 0;
+                dynamic score;
+                if (exam.Score == null)
+                {
+                    score = "Pending";
+                }
+                else
+                {
+                    score = exam.Score;
+                }
+                var name = StudentsOfFirstCourse[index].Fname + " " + StudentsOfFirstCourse[index].Lname;
+                <tr>
+                    <td id="nameOfStd">@name</td>
+                    <td>@exam.TotalMarks</td>
+                    <td>@score</td>
+                    <td><a href="/Instructor/DeleteExam/@exam.ExamId" class="btn btn-danger">Delete</a></td>
+                    <td><a href="/Instructor/EditExam/@exam.ExamId" class="btn btn-secondary">Edit</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $('#courseSelect').change(function () {
+        var courseId = $(this).val();
+        console.log(courseId)
+        $.ajax({
+            url: '/Instructor/GetStudentsExam',
+            type: 'GET',
+            data: { courseId: courseId },
+            success: function (data) {
+                $('#examsTableBody').empty();
+
+                $.each(data, function (index, stdExam) {
+                    console.log(data);
+                    var score;
+                    if (stdExam.score == null) {
+                        score = "Pending";
+                    }
+                    else {
+                        score = stdExam.score;
+                    }
+                    var newRow = '<tr>' +
+                        '<td>' + stdExam.studentName + '</td>' +
+                        '<td>' + stdExam.totalMarks + '</td>' +
+                        '<td>' + score + '</td>' +
+                        '<td><a href="/Instructor/DeleteExam/' + stdExam.examId + '" class="btn btn-danger">Delete</a></td>' +
+                        '<td><a href="/Instructor/EditExam/' + stdExam.examId + '" class="btn btn-secondary">Edit</a></td>' +
+                        '</tr>';
+                    $('#examsTableBody').append(newRow);
+                });
+            },
+            error: function (xhr, textStatus, errorThrown) {
+                console.error('Error:', errorThrown);
+            }
+        });
+    });
+</script>

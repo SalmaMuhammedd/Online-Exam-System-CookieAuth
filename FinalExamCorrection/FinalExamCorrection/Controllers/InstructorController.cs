@@ -19,6 +19,13 @@ namespace FinalExamCorrection.Controllers
         public IActionResult Home()
         {
             string id = User.Identity.Name;
+            Instructor instructor = dbContext.Instructors.Where(x => x.Id == id).AsEnumerable().FirstOrDefault();
+            return View(instructor);
+        }
+
+        public IActionResult Exams()
+        {
+            string id = User.Identity.Name;
             var courses = dbContext.Courses.FromSqlInterpolated($"getCoursesByInstructor {id}").AsEnumerable().ToList();
 
             ViewBag.courses = courses.Select(c => new SelectListItem

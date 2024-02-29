@@ -1,4 +1,5 @@
 ﻿using FinalExamCorrection.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -7,6 +8,7 @@ using System.Net;
 
 namespace FinalExamCorrection.Controllers
 {
+	[Authorize(Roles="Instructor")]
 	public class QuestionController : Controller
 	{
 		private readonly FinalOnlineExamSystemContext context;

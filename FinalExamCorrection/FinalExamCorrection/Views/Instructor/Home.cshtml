@@ -1,90 +1,71 @@
-﻿@{
-    var courses = ViewBag.courses;
-    List<Exam> firstExams = ViewBag.firstExams;
-    List<Student> StudentsOfFirstCourse = ViewBag.StudentsOfFirstCourse;
-}
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model Instructor
 
 
-<td> <a href="/Instructor/GenerateExam" class="btn btn-primary"> Generate Exam </a> </td>
+<h1 class="text-center">Home</h1>
+
 <div class="container">
-    <h1>Edit Exam</h1>
-    <div class="mb-3">
-        <label class="form-label">Select Course:</label>
-        <select name="course" class="form-select" aria-label="Default select example" asp-items="@courses" id="courseSelect"></select>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Exams</h5>
+                    <p class="card-text">Generate new Exam, Show your exams in different courses</p>
+                    <a asp-action="Exams" asp-controller="Instructor" class="btn btn-primary btn-block">Go to Exams</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Students</h5>
+                    <p class="card-text">Show all students, enroll them in courses, and add new ones</p>
+                    <a asp-action="GetAllStudent" asp-controller="User" class="btn btn-primary btn-block">Go to Students</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Courses</h5>
+                    <p class="card-text">Add, Edit, Delete Courses and topics associated with them</p>
+                    <a href="/Course/Index" class="btn btn-primary btn-block">Go to Courses</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Departments</h5>
+                    <p class="card-text">Add, Edit, Delete Departments</p>
+                    <a href="/Department/Index" class="btn btn-primary btn-block">Go to Departments</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Questions</h5>
+                    <p class="card-text">Manage questions for exams: Add, edit, delete</p>
+                    <a href="/Question/Index" class="btn btn-primary btn-block">Go to Questions</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Reports</h5>
+                    <p class="card-text">View and generate reports</p>
+                    <a href="/Report/Index" class="btn btn-primary btn-block">Go to Reports</a>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <table class="table table-borderd table-hover">
-        <thead>
-            <tr>
-                <th>Student Name</th>
-                <th>Total Marks</th>
-                <th>Grade Of Student</th>
-                <th>&nbsp;</th>
-                <th>&nbsp;</th>
-            </tr>
-        </thead>
-        <tbody id="examsTableBody">
-            @foreach (Exam exam in firstExams)
-            {
-                int index = 0;
-                dynamic score;
-                if (exam.Score == null)
-                {
-                    score = "Pending";
-                }
-                else
-                {
-                    score = exam.Score;
-                }
-                var name = StudentsOfFirstCourse[index].Fname + " " + StudentsOfFirstCourse[index].Lname;
-                <tr>
-                    <td id="nameOfStd">@name</td>
-                    <td>@exam.TotalMarks</td>
-                    <td>@score</td>
-                    <td><a href="/Instructor/DeleteExam/@exam.ExamId" class="btn btn-danger">Delete</a></td>
-                    <td><a href="/Instructor/EditExam/@exam.ExamId" class="btn btn-secondary">Edit</a></td>
-                </tr>
-            }
-        </tbody>
-    </table>
 </div>
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script>
-    $('#courseSelect').change(function () {
-        var courseId = $(this).val();
-        console.log(courseId)
-        $.ajax({
-            url: '/Instructor/GetStudentsExam',
-            type: 'GET',
-            data: { courseId: courseId },
-            success: function (data) {
-                $('#examsTableBody').empty();
-
-                $.each(data, function (index, stdExam) {
-                    console.log(data);
-                    var score;
-                    if (stdExam.score == null) {
-                        score = "Pending";
-                    }
-                    else {
-                        score = stdExam.score;
-                    }
-                    var newRow = '<tr>' +
-                        '<td>' + stdExam.studentName + '</td>' +
-                        '<td>' + stdExam.totalMarks + '</td>' +
-                        '<td>' + score + '</td>' +
-                        '<td><a href="/Instructor/DeleteExam/' + stdExam.examId + '" class="btn btn-danger">Delete</a></td>' +
-                        '<td><a href="/Instructor/EditExam/' + stdExam.examId + '" class="btn btn-secondary">Edit</a></td>' +
-                        '</tr>';
-                    $('#examsTableBody').append(newRow);
-                });
-            },
-            error: function (xhr, textStatus, errorThrown) {
-                console.error('Error:', errorThrown);
-            }
-        });
-    });
-</script>

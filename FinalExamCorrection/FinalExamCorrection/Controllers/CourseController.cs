@@ -117,9 +117,9 @@ namespace FinalExamCorrection.Controllers
 					new SqlParameter("@studID", Id),
 					new SqlParameter("@crsID", course.CourseId)
 				);
-			
-			if(result>0)
-				return RedirectToAction("Index");
+
+			if (result > 0)
+				return RedirectToAction("GetAllStudent", "User");
 			return View("Error", new ErrorViewModel() { Message = "Cannot add student to the course", RequestId = "1001" });
 
 		}
